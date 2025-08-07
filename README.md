@@ -9,7 +9,7 @@ Provision a fully functional Apache Kafka cluster using **Terraform** and **Dock
 | Component   | Image                              | Purpose                        |
 |------------|-------------------------------------|--------------------------------|
 | Zookeeper  | `bitnami/zookeeper:latest`          | Kafka metadata manager         |
-| Kafka      | `bitnami/kafka:latest`              | Message broker                 |
+| Kafka      | `confluentinc/cp-kafka:7.5.0`              | Message broker                 |
 | Kafka UI   | `provectuslabs/kafka-ui:latest`     | Web-based Kafka management     |
 
 ---
